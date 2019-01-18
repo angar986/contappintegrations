@@ -30,5 +30,4 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
         <string>Esta aplicación requiere acceder a tu biblioteca de fotos.</string>
     </edit-config>
-    <plugin name="cordova-support-google-services" spec="~1.2.1" />
 </widget>
