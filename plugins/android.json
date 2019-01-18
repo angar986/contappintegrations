@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-fcm": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-support-google-services": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        }
+    },
+    "dependent_plugins": {}
+}

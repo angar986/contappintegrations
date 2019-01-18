@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "827639779756",
+    "firebase_url": "https://contappintegration.firebaseio.com",
+    "project_id": "contappintegration",
+    "storage_bucket": "contappintegration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827639779756:android:a121c55f0c380977",
+        "android_client_info": {
+          "package_name": "com.nahiasolutions.contapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827639779756-t2bobg3nefj0bikl22o0b3notngkvo45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHvgDM485ew2Dk8V_UHLlw5HVIIZIZPWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

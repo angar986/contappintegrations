@@ -1,0 +1,45 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-camera": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+        },
+        "cordova-plugin-fcm": {
+            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+        },
+        "com-sarriaroman-photoviewer": {
+            "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+        },
+        "cordova-support-google-services": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        }
+    }
+}
