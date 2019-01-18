@@ -25,6 +25,7 @@
     </platform>
     <plugin name="cordova-plugin-console" spec="~1.0.7" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
+    <plugin name="cordova-plugin-fcm" spec="~2.1.2" />
     <plugin name="com-sarriaroman-photoviewer" spec="~1.1.15" />
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
         <string>Esta aplicación requiere acceder a tu biblioteca de fotos.</string>
