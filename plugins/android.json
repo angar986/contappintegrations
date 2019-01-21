@@ -7,10 +7,31 @@
         "files": {}
     },
     "installed_plugins": {
+        "com-sarriaroman-photoviewer": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
         "cordova-plugin-fcm": {
             "PACKAGE_NAME": "com.nahiasolutions.contapp"
         },
-        "cordova-support-google-services": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.nahiasolutions.contapp"
+        },
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.nahiasolutions.contapp"
         }
     },
