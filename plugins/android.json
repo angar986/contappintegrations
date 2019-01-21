@@ -19,9 +19,6 @@
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.nahiasolutions.contapp"
         },
-        "cordova-plugin-fcm": {
-            "PACKAGE_NAME": "com.nahiasolutions.contapp"
-        },
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.nahiasolutions.contapp"
         },

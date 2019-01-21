@@ -87,7 +87,6 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "com-sarriaroman-photoviewer/contapp-photoviewer.gradle"
-apply from: "cordova-plugin-fcm/contapp-FCMPlugin.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -244,8 +243,6 @@ dependencies {
     debugCompile project(path: "CordovaLib", configuration: "debug")
     releaseCompile project(path: "CordovaLib", configuration: "release")
     compile "com.android.support:support-v4:24.1.1+"
-    compile "com.google.firebase:firebase-core:+"
-    compile "com.google.firebase:firebase-messaging:+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

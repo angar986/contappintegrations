@@ -17,10 +17,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"FCMPlugin\"><param name=\"android-package\" value=\"com.gae.scaffolder.plugin.FCMPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
@@ -48,18 +44,6 @@
                     "/manifest/application": [
                         {
                             "xml": "<activity android:name=\"com.sarriaroman.PhotoViewer.PhotoActivity\" android:theme=\"@android:style/Theme.Holo.NoActionBar.Fullscreen\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<activity android:exported=\"true\" android:launchMode=\"singleTop\" android:name=\"com.gae.scaffolder.plugin.FCMPluginActivity\"><intent-filter><action android:name=\"FCM_PLUGIN_ACTIVITY\" /><category android:name=\"android.intent.category.DEFAULT\" /></intent-filter></activity>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<service android:name=\"com.gae.scaffolder.plugin.MyFirebaseMessagingService\"><intent-filter><action android:name=\"com.google.firebase.MESSAGING_EVENT\" /></intent-filter></service>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<service android:name=\"com.gae.scaffolder.plugin.MyFirebaseInstanceIDService\"><intent-filter><action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" /></intent-filter></service>",
                             "count": 1
                         }
                     ],
@@ -104,9 +88,6 @@
             "PACKAGE_NAME": "com.nahiasolutions.contapp"
         },
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.nahiasolutions.contapp"
-        },
-        "cordova-plugin-fcm": {
             "PACKAGE_NAME": "com.nahiasolutions.contapp"
         },
         "cordova-plugin-file": {
@@ -157,13 +138,6 @@
             "id": "cordova-plugin-camera.CameraPopoverHandle",
             "clobbers": [
                 "CameraPopoverHandle"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
-            "id": "cordova-plugin-fcm.FCMPlugin",
-            "clobbers": [
-                "FCMPlugin"
             ]
         },
         {
@@ -345,7 +319,6 @@
         "cordova-plugin-compat": "1.1.0",
         "cordova-plugin-camera": "2.4.1",
         "cordova-plugin-console": "1.0.7",
-        "cordova-plugin-fcm": "2.1.2",
         "cordova-plugin-file": "4.3.3",
         "cordova-plugin-file-transfer": "1.6.3",
         "cordova-plugin-inappbrowser": "1.7.1",
