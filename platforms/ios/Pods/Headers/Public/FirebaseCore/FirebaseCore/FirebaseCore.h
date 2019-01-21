@@ -1,5 +1,0 @@
-XSym
-0081
-264effa2c5f9d71f4a52045e0d152720
-../../../../FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
